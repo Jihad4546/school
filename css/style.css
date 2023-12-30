@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    border:0;
+   
+}
+/* commond code start  here  */
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*commond code start  here  */
+/* nav sater here  */
+.nav-link{
+    color:white
+}
+.nav-link:hover{
+    color:red;
+    transition: 0.5s;
+}
+.nav{
+
+    background-image: url(../img/th\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+
+
+
+
+.high{
+    margin-right: 150px;
+    
+    font-size: 40px;
+      
+}
+.midel-nav{
+    margin:100px auto;
+    font-size: 30px;
+    color:rgb(255, 28, 28);
+
+}
+
+.nav-lower{
+    
+    gap:5rem;
+    margin-right:50px;
+    background:gray;
+}
+
+
+/* nav end  here  */
+
+/* header start here */
+.header{
+    height: 80vh;
+    background:red
+}
+.Educational-qualefication{
+    padding:10px;
+    border:2px solid wheat;
+    gap:2rem;
+    margin-top:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 80px;
+   gap:1rem;
+   border-radius: 20px;
+   
+
+}
+
+
+.text-align{
+    text-align: center;
+}
+.logo{
+    font-size: 30px;
+}
+.heading{
+    font-size: 20px;
+}
+.margin-right {
+    margin-right: 80px;
+   
+    
+} 
+.link-more{
+    background:gray;
+    padding:10px;
+    border-radius: 10px;
+    color:white
+}
+.link-more:hover{
+    background:red;
+    transition: 0.7s;
+}
+
+/* header end here */
+/* main start here  */
+.main{
+
+max-width: 100%;
+    
+}
+.bolad{
+ font-size: large;
+    
+}
+.main{
+   
+}
+
+
+
+/* main end here  */
